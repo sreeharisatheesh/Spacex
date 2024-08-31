@@ -1,0 +1,138 @@
+.banner-container{
+    
+    width: 100%;
+    height: 100vh;
+    color:white;
+}
+
+.lighterone{
+    font-weight: lighter;
+}
+.bolderone{
+    font-weight: 600;
+}
+.watchone{
+    font-weight: 500;
+    font-size: 0.8rem;
+    width: 90px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+.watchone:hover{
+    background-color: white;
+    color:black;
+}
+.first-text{
+    padding-left: 120px;
+    padding-top: 300px;    
+    background-image: url("C:\Users\sathe\OneDrive\Desktop\Clone\airclub\public\polaris-dawn.webp");
+    height:500px;
+}
+.second-text{
+    padding-left: 1200px;
+    padding-top: 300px;
+    background-image:url('C:\Users\sathe\OneDrive\Desktop\Clone\airclub\public\anirudh-PSDEqr7lE7k-unsplash.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    height:500px;
+}
+.third-text{
+    padding-left: 120px;
+    padding-top: 300px;    
+    background-image: url('C:\Users\sathe\OneDrive\Desktop\Clone\airclub\public\pexels-spacex-23781.jpg');
+    background-size:cover;
+    background-position: center;
+    height:600px;
+}
+.fourth-text{
+    padding-left: 1200px;
+    padding-top: 300px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1666466251196-e165803742be?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:cover;
+    background-position: center;
+    height:600px;
+}
+.fifth-text{
+    padding-left: 120px;
+    padding-top: 300px;
+    background-image: url('https://plus.unsplash.com/premium_photo-1679758630055-99ebb2df7d77?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size:cover;
+    background-position: center;
+    height:600px;
+}
+
+footer{
+    padding-top: 50px;
+    background-color: black;
+    color: rgb(190, 156, 156);
+    padding-left: 35%;
+}
+.footer{
+    display: flex;
+    gap:50px;
+    font-size: 0.8rem;
+    padding: 30px;
+    cursor: pointer;
+}
+.footer p:hover{
+    color:white;
+}
+@media(max-width:1000px){
+    body{
+        font-size:1.5rem;
+    }
+    .first-text{
+        padding-left: 80px;
+        padding-top: 300px;    
+        background-image: url("C:\Users\sathe\OneDrive\Desktop\Clone\airclub\public\polaris-dawn.webp");
+        height: 600px;
+
+    }
+    .second-text{
+        padding-left: 80px;
+        padding-top: 300px;
+        background-image:url('C:\Users\sathe\OneDrive\Desktop\Clone\airclub\public\anirudh-PSDEqr7lE7k-unsplash.jpg'); 
+        background-size:contain;
+        background-position:top;
+        height:500px;
+    }
+    .third-text{
+        padding-left: 80px;
+        padding-top: 300px;    
+        background-image: url('C:\Users\sathe\OneDrive\Desktop\Clone\airclub\public\pexels-spacex-23781.jpg');
+        height:600px;
+    }
+    .fourth-text{
+        padding-left: 80px;
+        padding-top: 300px;
+        background-image: url("https://plus.unsplash.com/premium_photo-1666466251196-e165803742be?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-size:cover;
+        background-position: center;
+        height:600px;
+    }
+    .fifth-text{
+        padding-left: 80px;
+        padding-top: 300px;
+        background-image: url('https://plus.unsplash.com/premium_photo-1679758630055-99ebb2df7d77?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size:cover;
+        background-position: center;
+        height:600px;
+    }
+    footer{
+        padding-top: 50px;
+        background-color: black;
+        color: rgb(190, 156, 156);
+        padding-left: 10%;
+    }
+    .footer{
+        display: flex;
+        gap:50px;
+        font-size: 0.8rem;
+        padding: 30px;
+        cursor: pointer;
+    }
+    
+}
